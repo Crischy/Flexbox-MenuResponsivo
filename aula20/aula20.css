@@ -1,0 +1,55 @@
+/* Menu Responsivo */
+
+body {
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    /* gap: 5px; */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu-item {
+        align-items: center;
+        background-color: burlywood;
+        display: flex;
+        flex: 1 1 200px;
+        justify-content: center;
+        margin: 5px;
+        padding: 0;
+    }
+
+        .menu-link {
+            color: #ffffff;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+/* 
+@media (min-width: 850px) {
+    .menu-item {
+        flex-basis: 100px;
+    }
+}
+ */
+
+
+
+
+
+
+
+
